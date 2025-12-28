@@ -1,0 +1,218 @@
+body {
+  overflow-x: hidden;
+}
+
+/*NAVBAR*/
+    .custom-navbar {
+      top: 0;
+      width: 100%;
+      height: 88px;
+      z-index: 10;
+      background: rgb(0, 0, 0);
+    }
+
+    .custom-navbar .nav-link {
+    
+      color: #f8d776 !important;
+      margin: 0 10px;
+      font-weight: 500;
+    }
+
+    .custom-navbar .nav-link:hover {
+      color: white  !important;
+    }
+
+    /* Logo size fix */
+    .custom-navbar .navbar-brand img {
+      height: 40px;
+      width: auto;
+    }
+
+    /* Social icons spacing */
+    .d-flex i {
+      
+      color: #f8d776  !important;
+      margin-left: 15px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    .d-flex i:hover {
+      color:  white  !important;
+      transform: scale(1.1);
+    }
+
+
+    /* button */
+
+.button {
+    background-color: #f8d776  !important;
+    color: white !important;
+    border: none;
+    font-size: 20px;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+    padding: 10px 20px; 
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.button:hover {
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid lightblue; 
+}
+
+.button1 {
+    background-color: lightblue;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+    padding: 10px 20px; 
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid lightblue; 
+}
+
+
+    /* CAROUSEL */
+
+  .carousel-inner {
+    background: rgb(0, 0, 0);;
+  }
+    .carousel-item img {
+      height: 500px;
+      object-fit: cover;
+      
+    }
+
+
+
+    /* welcome section   */
+
+.welcome-section {
+    text-align: center;      
+    max-width: 800px;       
+    margin: 0 auto;         
+    padding: 40px 20px;      
+}
+
+.welcome-section .h1 {
+    font-size: 3rem;         
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #f8d776;          
+}
+
+.welcome-section .description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+
+/* card */
+
+.card {
+  transition: all 0.3s ease;
+}
+
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+  }
+
+  .star {
+    transition: all 0.3s ease;
+    width: 150vh;
+    margin-left: 200px;
+  }
+
+
+  .star:hover {
+    transform: translateY(-10px);
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(8, 7, 7, 0.6);
+  }
+
+
+
+  /* About Section */
+
+.About {
+  max-width: 100%;       
+  height: vh;   
+  margin: 80px auto;      
+  padding: 40px;            
+  background: #fdfcfb;      
+  border-radius: 2px;       
+  box-shadow: 0 10px 30px rgba(133, 245, 253, 0.1); 
+  text-align: center;       
+  font-family: 'Arial', sans-serif;
+}
+
+.About h1 {
+  font-size: 3rem;
+  color: white;       
+  font-size: 60px;    
+  margin-bottom: 20px;
+}
+
+.About p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: white;             
+}
+
+.About:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+
+.About {
+    background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), /* black overlay */
+    url('https://cdn.pixabay.com/photo/2016/11/22/21/43/woman-1850709_1280.jpg') no-repeat center/cover;
+    color: white;
+}
+
+@media (max-width: 768px) {
+      .carousel-item img {
+        height: 280px;
+      }
+    }
+
+    .carousel-caption {
+      background: rgba(0,0,0,0.5);
+      padding: 10px 15px;
+      border-radius: 8px;
+    }
+
+/* Carousel fixed height */
+.carousel-item img {
+  height: 567px;
+  object-fit: cover;
+}
+
+/* Mobile responsive height */
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 280px;
+  }
+}
+
+/* Caption readability */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 15px;
+  border-radius: 20px;
+}

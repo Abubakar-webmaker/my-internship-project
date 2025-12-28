@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regine Inn Hotel</title>
+    <!-- Links -->
+    <link rel="icon" href="./images/fe9a9ed3-5686-47bf-bc7b-257dbc2b2305.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./about.html">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg custom-navbar" style="position: fixed; top: 0;
+      width: 100%;
+      z-index: 10;">
+  <div class="container-fluid">
+
+    <!-- Logo -->
+    <a class="navbar-brand" style="font-weight: 40px;" href="#">
+      <img src="./images/fe9a9ed3-5686-47bf-bc7b-257dbc2b2305.png" style="width: 100px; height: 80px;" alt="Logo">
+    </a>
+
+    <!-- Mobile toggle -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Links -->
+    <div class="collapse navbar-collapse"id="navbarNavDropdown">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link" href="#home" id="#">HOME</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about" id="#">ABOUT US</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tariff" id="#">TARIFF</a></li>
+        <li class="nav-item"><a class="nav-link" href="#clients" id="#">CLIENTS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery" id="#">GALLERY</a></li>
+        <li class="nav-item"><a class="nav-link" href="#owned" id="#">OWNED</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact" id="#">CONTACT US</a></li>
+      </ul>
+
+      <!-- Social icons -->
+        <div class="d-flex" >
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter-x"></i>
+        <i class="bi bi-envelope"></i>
+        <i class="bi bi-linkedin"></i>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- slider  -->
+<div id="carouselExampleCaptions" class="carousel slide">
+
+  <div class="carousel-indicators">
+
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"  aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+  </div>
+
+<div class="carousel-inner">
+<div class="carousel-item active" >
+  <img 
+    src="https://cdn.pixabay.com/photo/2024/05/20/11/11/ai-generated-8774912_1280.jpg" 
+    class="d-block w-100" 
+    style="height:100vh; object-fit:cover; "  
+    alt="Hotel Room">
+
+  <!-- Text overlay -->
+  <div class="carousel-caption" class="welcome-section" style=" margin-bottom: 160px;" id="home">
+    <h1 style="color: #f8d776; "> <b>Regine Inn Hotel</b></h1>
+    <p class="description">Luxurious & Comfortable Rooms are available in our Hotel.</p>
+    <button class="button">Book Now</button>
+  </div>
+</div>
+
+    <div class="carousel-item">
+      <img src="https://cdn.pixabay.com/photo/2021/02/03/00/10/receptionists-5975962_1280.jpg"   class="d-block w-100" 
+    style="height:100vh; object-fit:cover;" 
+    alt="Hotel Room">
+      <div class="carousel-caption" style=" margin-bottom: 230px">
+        <h5>Services</h5>
+        <p>We always ready to provide services for our customers.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.pixabay.com/photo/2017/08/01/01/59/concrete-2562781_1280.jpg" class="d-block w-100" 
+    style="height:100vh; object-fit:cover;" 
+    alt="Hotel Room">
+      <div class="carousel-caption" style=" margin-bottom: 230px">
+        <h5>Facilities</h5>
+        <p>We Provide High Tech Security Systems in our HOTEL.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="https://cdn.pixabay.com/photo/2016/01/08/01/53/gymer-1126999_960_720.jpg" class="d-block w-100" 
+    style="height:100vh; object-fit:cover;" 
+    alt="Hotel Room">
+      <div class="carousel-caption " style=" margin-bottom: 230px">
+        <h5>GYM</h5>
+        <p>Gym. Facility is available in our Hotel.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="https://cdn.pixabay.com/photo/2016/02/17/21/09/welcome-to-our-home-1205888_1280.jpg" class="d-block w-100" 
+    style="height:100vh; object-fit:cover;" 
+    alt="Hotel Room">
+      <div class="carousel-caption " style=" margin-bottom: 230px">
+        <h5>Clients</h5>
+        <p>We are Welcome in valueable Clients.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="https://cdn.pixabay.com/photo/2022/08/10/08/36/mediterranean-buffet-7376614_1280.jpg" class="d-block w-100" 
+    style="height:100vh; object-fit:cover;" 
+    alt="Hotel Room">
+      <div class="carousel-caption " style=" margin-bottom: 230px">
+        <h5>Foods</h5>
+        <p>The best and Fresh available Foods in our Hotel.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- Welcome Section  -->
+
+  <div class="welcome-section">
+    <p class="h1">Welcome To Regineinn</p>
+    <p class="description">
+        "Regine Inn 2 Star Hotel" situated in the posh locality in the heart of Clifton Karachi. 
+        It has 27 fully furnished Air-conditioned comfortable rooms with additional facility of 
+        Dining Hall, Gym, laundry, Rent a car, tuck shop, standby 100 KVA Generator and last but 
+        not least our traditional hospitality and neat n clean environment which took "Regine Inn" 
+        as choice of celebrities and corporate sector clients.
+    </p>
+</div>
+
+
+
+
+
+<!-- Room Section  -->
+
+
+<div class="row row-cols-1 row-cols-md-3 g-4" class="card" style="margin-left: 2px; margin-right: 2px;" >
+  <div class="col">
+    <div class="card h-100" style="background-color: #f8d776;">
+      <img src="https://www.qe2.com/wp-content/uploads/sites/113/2024/08/Superior-Room-3-1-2200x1200.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Rooms</h5>
+        <p class="card-text">Luxrious & Comfortable Rooms are available in our Hotel.</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100"  style="background-color: #f8d776;">
+      <img src="https://images.pexels.com/photos/6466492/pexels-photo-6466492.jpeg?cs=srgb&dl=pexels-cottonbro-6466492.jpg&fm=jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Services</h5>
+        <p class="card-text">We always ready to provide services for our customers.</p>
+      </div>
+    
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100"  style="background-color: #f8d776;">
+      <img src="https://atriade.com/wp-content/uploads/2022/07/security-monitoring4-1024x577.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Facilities</h5>
+        <p class="card-text">We Provide High Tech Security Systems in our HOTEL.</p>
+      </div>
+    
+    </div>
+  </div>
+</div>
+<br>
+
+
+<div class="row row-cols-1 row-cols-md-3 g-4" style="margin-left: 2px; margin-right: 2px;">
+  <div class="col">
+    <div class="card h-100"  style="background-color: #f8d776;">
+      <img src="https://a.storyblok.com/f/287000/2000x1335/c395d3b5ed/la-baule-hermitage-salle-de-sport.jpg/m/1288x858/filters:format(webp):quality(80)" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">GYM</h5>
+        <p class="card-text">Gym Facility is available in our Hotel.</p>
+      </div>
+    
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100"  style="background-color: #f8d776;">
+      <img src="https://media.istockphoto.com/id/1319763433/photo/multiethnic-couple-handshake-with-consultant-at-home.jpg?s=612x612&w=0&k=20&c=uW5-DzuIB5mrQNxN_j_fd6QjVAmtdbeTZf7geXPlRsA=" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Clients</h5>
+        <p class="card-text">We are Welcome in valueable Clients.</p>
+      </div>
+   
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100"  style="background-color: #f8d776;">
+      <img src="https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Foods</h5>
+        <p class="card-text">The best and Fresh available Foods in our Hotel.</p>
+      </div>
+   
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+
+<!-- About Section  -->
+
+
+<div class="About" id="about">
+  <h1 style="color: #f8d776;">About Regine Inn</h1>
+  <p >At "Regine inn"every individual s always ready to served our valued guest with smile round the clock, while staying with us you can enjoy exotic meals from our kitchen cheaf. Regine Inn's every room is equipped with T.V, DVD mini Bar and fastest free DSL internet connection round the clock. We have ample car parking for every room and separate visitors parking also. Regine Inn "Two star Hotel" is surrounded by famous hospitals, like Ziauddin, Agha Khan & Souyth City Hospital & top of the line resturants and shopping malls. We invite you to please come and visit us. We assure you sir that your visit will definitely make up your mind to choose "Regine Inn"as your official hotel for your upcoming business guests and company officials.</p>
+  <button class="button">More Details</button>
+</div>
+
+<br>
+<br>
+
+<!-- TARRIF Section  -->
+
+
+<div class="welcome-section"id="tariff">
+
+  <p class="h1" >TARRIF</p>
+  <p class="description">Our one night room charges are as under...</p>
+</div>  
+
+<div class="row row-cols-1 row-cols-md-3 g-4" style="margin-left: 2px; margin-right: 2px;">
+  <div class="col">
+    <div class="card h-100"  style="background-color: #f8d776;">
+      <img src="https://cdn.pixabay.com/photo/2016/09/18/03/28/travel-1677347_1280.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Standard Rooms</h5>
+        <p class="card-text"> Rs.7,000 + GST</p>
+      </div>
+    
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100"  style="background-color: #f8d776;">
+      <img src="https://cdn.pixabay.com/photo/2020/02/01/06/12/upholstery-4809588_1280.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Deluxe Room </h5>
+        <p class="card-text">  Rs.9,000 + GST</p>
+      </div>
+   
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100"  style="background-color: #f8d776;">
+      <img src="https://cdn.pixabay.com/photo/2020/10/24/02/35/indoors-5680423_1280.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Family</h5>
+        <p class="card-text"> Rs.8,000 + GST</p>
+      </div>
+   
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+<!-- CLIENTS Section  -->
+
+
+<div class="welcome-section" id="clients">
+    <p class="h1">CORPORATE CLIENTS</p>
+</div>
+
+
+<div class="row row-cols-1 row-cols-md-3 g-4" style="margin-left: 2px; margin-right: 2px;">
+  <div class="col">
+    <div class="card h-100"  style="background-color: #f8d776;">
+      <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mari Petroleum.</h5>
+      </div>
+    
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100"  style="background-color: #f8d776;">
+      <img src="https://www.techjuice.pk/wp-content/uploads/2019/09/images-51.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">United Bank Ltd. </h5>
+      </div>
+   
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100"  style="background-color: #f8d776;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCP6D-rSPvUjWwEjQnoTnfjXGjj-EHHaTlGw&s" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Samma Tv.</h5>
+      </div>
+   
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+<div class="row row-cols-1 row-cols-md-3 g-4" style="margin-left: 2px; margin-right: 2px;">
+  <div class="col">
+    <div class="card h-100"  style="background-color: #f8d776;">
+      <img src="https://www.pakpedia.pk/files/Image/National-Bank-of-Pakistan-History.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">National Bank.</h5>
+      </div>
+    
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100"  style="background-color: #f8d776;">
+      <img src="https://bahriatown.com/wp-content/uploads/2025/08/Blog-Cover.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Bahria Town.</h5>
+      </div>
+   
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100"  style="background-color: #f8d776;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYcQLUvd2oS8aGGztOi5KvFnj4giKhJNidoA&s" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">KCA Duetag.</h5>
+      </div>
+   
+    </div>
+  </div>
+</div>
+
+
+<!-- Gallery Section  -->
+
+<div class="welcome-section" id="gallery">
+<p class="h1">GALLERY</p>
+<p class="description">High Standard Rooms.</p>
+</div>
+<div class="row row-cols-1 row-cols-md-3 g-4" style="margin-left: 2px; margin-right: 2px;">
+ <div class="col">
+    <div class="card h-100"  style="border: none;">
+      <img src="https://cdn.pixabay.com/photo/2020/02/01/06/12/living-room-4809590_960_720.jpg" class="card-img-top" alt="...">
+    </div>
+  </div>
+ <div class="col">
+    <div class="card h-100" style="border: none;">
+      <img src="https://cdn.pixabay.com/photo/2020/02/01/06/12/upholstery-4809588_960_720.jpg" class="card-img-top" alt="...">
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100" style="border: none;">
+      <img src="https://cdn.pixabay.com/photo/2016/11/30/08/48/bedroom-1872196_1280.jpg" class="card-img-top" alt="...">
+    </div>
+  </div>
+</div>
+<br>
+
+
+<div class="row row-cols-1 row-cols-md-3 g-4" style="margin-left: 2px; margin-right: 2px;">
+ <div class="col">
+    <div class="card h-100" style="border: none;">
+      <img src="https://cdn.pixabay.com/photo/2019/05/28/00/15/indoors-4234072_1280.jpg"class="card-img-top" alt="...">
+    </div>
+  </div>
+ <div class="col">
+    <div class="card h-100" style="border: none;">
+      <img src="https://cdn.pixabay.com/photo/2016/10/18/09/02/hotel-1749602_1280.jpg" class="card-img-top" alt="...">
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100" style="border: none;">
+      <img src="https://cdn.pixabay.com/photo/2016/03/16/22/17/hotel-room-1261900_1280.jpg" class="card-img-top" alt="...">
+    </div>
+  </div>
+</div>
+
+<!-- Owned by Section   -->
+
+
+<div class="welcome-section" id="owned">
+<p class="h1">OWNED BY</p>
+<p class="description">Mr. Aurangzaib Khan   0300-8279090.</p>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4" style="margin-left: 2px; margin-right: 2px;" style="width: 10px;">
+<div class="col">
+  <div class="card" >
+    <img src="./images/logo2.jpg"  alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Hotel Regine Inn.</h5>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="card" >
+    <img src="./images/3413aeab-5ea1-469a-9d69-8a8b89861a3f.png" style="height: 235px;"  alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Highbrow Mineral Water.</h5>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="card" >
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSnV7J4nSPK1FlxAi2dCRcPhznd-igtyIvog&s" style="height: 235px;" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Highbrow Mineral Water.</h5>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="card" >
+    <img src="https://crystalpng.com/wp-content/uploads/2025/01/pso-logo.png"  style="height: 235px;" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Khan Petroleum & CNG Station. (PSO)</h5>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="card" >
+    <img src="https://crystalpng.com/wp-content/uploads/2025/01/pso-logo.png"  style="height: 235px;" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Zia Service Station (PSO).</h5>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="card" >
+    <img src="https://www.shutterstock.com/image-vector/real-estate-logo-builder-roof-600nw-2466153745.jpg"  style="height: 235px;" alt="...">
+    <div class="card-body">
+      <h5 class="card-title" >Regine Properties (Real Estate & Builders).</h5>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Contact Section  -->
+
+
+<div class="welcome-section" id="contact">
+<p class="h1">CONTACT US</p>
+
+</div>
+
+
+
+<div class="container" style="height: 70vh;">
+  <form class="row g-3 justify-content-center">
+
+    <!-- Email -->
+    <div class="col-12 col-md-6 " >
+      <label class="form-label">Email</label>
+      <input type="email" class="form-control " placeholder="Enter Email">
+    </div>
+
+    <!-- Password -->
+    <div class="col-12 col-md-6">
+      <label class="form-label">Password</label>
+      <input type="password" class="form-control" placeholder="Enter Password">
+    </div>
+
+    <!-- Name -->
+    <div class="col-12 col-md-6">
+      <label class="form-label">Name</label>
+      <input type="text" class="form-control" placeholder="Enter Name">
+    </div>
+
+    <!-- City -->
+    <div class="col-12 col-md-6">
+      <label class="form-label">City</label>
+      <input type="text" class="form-control" placeholder="Enter City">
+    </div>
+
+    <!-- Phone No -->
+    <div class="col-12">
+      <label class="form-label">Phone No</label>
+      <input type="text" class="form-control" placeholder="Enter Phone Number">
+    </div>
+
+    <!-- Fix No -->
+    <div class="col-12">
+      <label class="form-label">Fix No</label>
+      <input type="text" class="form-control" placeholder="Enter Fix Number">
+    </div>
+
+    <!-- Button -->
+    <div class="col-12 text-center">
+      <button class="button">Submit</button>
+    </div>
+
+  </form>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.4309219722!2d67.00477977436309!3d24.814932847079668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33d8f1a184ccb%3A0x53cc3cc0e67a3b9!2sRegine%20Inn%20Hotel!5e0!3m2!1sen!2s!4v1766767634964!5m2!1sen!2s" 
+    width="100%"
+    height="400"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy">></iframe>
+
+
+
+
+    <footer class="bg- text-black pt-5 pb-3" style="background-color: #f8d776;">
+  <div class="container">
+    <div class="row">
+
+       <a href="#" class="text-white me-3"><i class="fab fa-facebook" style="color: white;"></i></a>
+      <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
+
+      <div class="col-md-3">
+        
+        <ul class="list-unstyled">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Tariff</li>
+          <li>clients</li>
+          <li>Contact Us</li>   
+
+          
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <h5>Support</h5>
+        <ul class="list-unstyled">
+          <li>Help</li>
+          <li>FAQ</li>
+          <li>Privacy</li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <h5>Contact</h5>
+        <p>Phone: (021) 35823441</p>
+        <p>Address:C-139 1، near Zia-ud-din Hospital, Block 2 Clifton, Karachi, 75600</p>
+      </div>
+
+    </div>
+
+    <hr class="border-secondary">
+
+    <div class="text-center">
+      © Design & developed by Sibex Systems
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
