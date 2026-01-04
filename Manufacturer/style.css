@@ -1,0 +1,415 @@
+body {
+  overflow-x: hidden;
+}
+
+/* NavbarS section  */
+.navbar0 {
+    background-color: black;
+    color: white;
+    height: 7vh;
+}
+
+.navbarS {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.navbarS p {
+   padding: 10px 20px;
+   color: white;
+}
+
+.navbarS p:hover {
+   color: darkblue;
+}
+
+
+.navbarS i  {
+    padding: 10px 20px;
+}
+
+.navbarS i:hover {
+    color: darkblue;
+}
+
+/* ________________________ */
+
+.navbar {
+    height: 13vh;
+    background: transparent;
+}
+
+.nav-item {
+    padding-left: 50px;
+}
+
+.navbar .nav-link {
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.navbar .nav-link:hover {
+    color: darkblue;
+}
+
+.iconbutton i {
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+.iconbutton i:hover{
+    color: darkblue;
+}
+
+.iconbutton button {
+    padding: 10px 20px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 15px;
+}
+
+.iconbutton button:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+/* Slider section  */
+.carousel-caption {
+    background: rgba(48, 74, 219, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+.carousel-caption h5 {
+    font-size: 60px;
+    color: white;
+}
+
+.carousel-caption p {
+    font-size: 16px;
+    color: white;
+}
+
+/* Key information  */
+
+.key{
+    color: black;
+    text-align: center;
+}
+.keyf {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.keyf img {
+    width: 500px;
+    height: 350px;
+    border: 2px solid darkblue;
+}
+
+
+
+.key h1 {
+  color: black;
+  font-size: 10vh;
+}
+
+.key h1:hover{
+  color: darkblue;
+}
+
+.information {
+    color: white;
+    background-image: url('https://cdn.pixabay.com/photo/2022/02/08/09/03/window-7001026_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    width: 100%;       
+    min-height: 300px;  
+    padding: 20px 40px;
+    gap: px;
+}
+
+/* about section  */
+.center {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: gray;
+    padding: 0 15px;
+}
+
+/* Services section  */
+
+.Services .card-group {
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Services .card-img-top{
+     border: 2px solid darkblue;
+     border-radius: 50px;
+}
+
+
+.Services .card {
+    border: none;
+}
+
+.card {
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px rgba(48, 74, 219, 0.6);;
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  transition: 0.3s;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+
+.padd {
+    padding-left: 100px;
+}
+
+
+
+/* product */
+.product {
+    gap: 0;
+    padding-right: 100px;
+}
+
+/* client  */
+.client {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    
+}
+
+.client-care{
+    position: relative;
+    animation: slideRight 15s linear infinite;
+}
+
+
+@keyframes slideRight{
+    0%{
+        transform: translateX(-50%);
+    }
+    100%{
+        transform: translateX(100vw);
+    }
+}
+
+
+/* contact */
+
+.contact {
+    width: 150vh;
+    padding-left: 400px;
+}
+
+.contact button 
+ {
+    padding: 10px 20px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 15px;
+
+}
+
+.contact button:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+.map {
+    text-align: center;
+}
+
+
+@media (max-width: 576px) {
+
+  /* Top small navbar */
+  .navbarS {
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+  }
+
+  /* Main navbar */
+  .navbar {
+    height: auto;
+  }
+
+  .nav-item {
+    padding-left: 0;
+    text-align: left;
+  }
+
+  .iconbutton {
+    text-align: right;
+  }
+
+  .iconbutton i {
+    padding-right: 10px;
+  }
+
+  .img {
+    height: 75vh;
+  }
+
+
+
+    .carousel-caption h5 {
+        font-size: 26px;
+    }
+
+    .carousel-caption p {
+        font-size: 13px;
+    }
+
+
+
+  /* Key section */
+  .keyf {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .keyf img {
+    width: 100%;
+    height: auto;
+  }
+
+  .key h1 {
+    font-size: 40px;
+  }
+
+  /* Information section */
+  .information {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+/* about section  */
+.center {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: gray;
+    padding: 0 15px;
+}
+
+  /* Services */
+  .card {
+    width: 100%;
+  }
+
+  .padd {
+    padding-left: 0;
+  }
+
+  /* Product */
+  .product {
+    padding-right: 0;
+  }
+
+  /* Client */
+  .client {
+    flex-direction: column;
+    align-items: center;
+    width: 50vh;
+    height: 100vh;
+    padding-left: 60px;
+    
+  }
+
+  /* Contact */
+  .contact {
+    width: 100%;
+    padding-left: 0;
+    padding: 20px;
+  }
+
+  .navbarS {
+    display: none;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+
+  .navbarS {
+    flex-wrap: wrap;
+  }
+
+  .nav-item {
+    padding-left: 20px;
+  }
+
+  .keyf img {
+    width: 90%;
+    height: auto;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .contact {
+    width: 100%;
+    padding-left: 50px;
+  }
+}
+
+
+
+@media (max-width: 992px) {
+
+  .nav-item {
+    padding-left: 30px;
+  }
+
+  .keyf img {
+    width: 400px;
+    height: auto;
+  }
+
+  .contact {
+    width: 100%;
+    padding-left: 100px;
+  }
+}
+
+
+
+
