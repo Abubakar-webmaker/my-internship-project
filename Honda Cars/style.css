@@ -1,0 +1,431 @@
+html, body {
+  overflow-x: hidden;
+}
+/* Hero section start  */
+.hero-content {
+  top: 50%;
+  transform: translateY(-50%);
+} 
+
+.hero-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+.logos {
+    width: 100px;
+    height: 100px;
+}
+
+#menu {
+    font-size: 4vh;
+    padding-right: 150px;
+}
+
+#menu .nav-link {
+    color: white;
+}
+
+#menu .nav-link:hover {
+    color: red;
+}
+
+.iii {
+      color: white;
+      font-size: 4vh;
+      padding-left: 70px;
+}
+
+.iii:hover{
+    color: red;
+}
+
+.gap {
+    gap: 30px;
+}
+
+.padding {
+    padding-bottom: 30vh;
+    
+}
+
+.padding h1 {
+    font-size: 15vh;
+}
+
+.padding h1:hover {
+    color: red;
+}
+
+.butt {
+    padding: 10px 10px;
+    font-size: 4vh;
+    font-weight: 500;
+    border: 2px solid red;
+    background: inherit;
+    color: white;
+    border-radius: 10px;
+}
+
+.butt:hover {
+    background-color: red;
+    color: black;
+}
+ /* Hero section end  */
+
+/* Featured Vehicles Section Start  */
+
+ .flesx {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+ }
+ .hphphp #hp {
+    text-align: center;
+    color: black;
+    font-size: 10vh;
+    font-weight: bold;
+    font-family: sans-serif;
+ }
+
+
+ #center {
+    text-align: center;
+    font-size: 5vh;
+    font-family: serif sans-serif;
+    color: red;
+ }
+
+ #black {
+    color: black;
+    font-size: 3vh;
+    font-weight: bold;
+ }
+
+ #img-box {
+    transition: transform 0.5s ease;
+ }
+
+#img-box:hover {
+    transform: scale(1.2);
+  }
+
+  .bbbbbb {
+    padding-left: 95vh;
+  }
+.butteen {
+ padding: 5px 10px;
+ width: 10%;
+ border: 2px solid red;
+ color: black;
+ font-weight: 600;
+ background-color: white;
+}
+
+.butteen:hover {
+    color: white;
+    background-color: red;
+}
+
+/* Featured Vehicles Section End */
+
+/* Featured Service Start  */
+.imgee{
+  width:100%;
+  height:50vh;
+  background:
+  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("https://cdn.pixabay.com/photo/2014/05/17/13/36/girl-346231_1280.jpg");
+  background-size:cover;
+  background-position:center;
+}
+
+#hpf {
+    color: white;
+    text-align: center;
+    font-size: 15vh;
+    font-weight: bold;
+    padding-top: 15vh;
+}
+
+#h5hh {
+    text-align: center;
+    color: red;
+    font-size: 400;
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+#p5pp {
+    color: gray;
+    text-align: center;
+    font-weight: bold;
+}
+
+.flexcc {
+    display: flex;
+    justify-content: center;
+    gap: 20vh;
+}
+
+.flexzz {
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+}
+.imgeee{
+  width:100%;
+  height:40vh;
+  background:
+  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("https://cdn.pixabay.com/photo/2021/03/10/17/40/car-6085108_960_720.jpg");
+  background-size:cover;
+  background-position:center;
+}
+
+#hhhhhp {
+    text-align: center;
+    color: white;
+    font-size: 10vh;
+    font-weight: bold;
+}
+#ppppph {
+    color: aliceblue;
+    text-align: center;
+    font-size: 5vh;
+}
+
+.Ourr {
+   text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 10vh;
+}
+
+.Ourfff {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.imgeeimg{
+  width:100%;
+  height:50vh;
+  background:
+  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("https://cdn.pixabay.com/photo/2017/08/07/00/28/red-2597961_960_720.jpg");
+  background-size:cover;
+  background-position:center;
+}
+
+footer ul li {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+footer ul li:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+/* Featured Service End  */
+@media (max-width: 991px) {
+    /* Hero section start  */
+.hero-content {
+  top: 50%;
+  transform: translateY(-50%);
+} 
+
+.hero-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+.logos {
+    width: 60px;
+    height: 60px;
+}
+
+#menu {
+    font-size: 4vh;
+    padding-right: 0px;
+}
+
+.iii {
+      color: white;
+      font-size: 4vh;
+      padding-left: 0px;
+}
+
+.iii:hover{
+    color: red;
+}
+
+.gap {
+    gap: 0px;
+}
+
+.padding {
+    padding-bottom: 30vh; 
+}
+
+.padding h1 {
+    font-size: 10vh;
+}
+
+.butt {
+    padding: 10px 10px;
+    font-size: 3vh;
+    font-weight: 500;
+    border: 2px solid red;
+    background: inherit;
+    color: white;
+    border-radius: 10px;
+}
+ /* Hero section end  */
+
+ /* Featured Vehicles Section Start  */
+
+
+ #with{
+    width: 1vh;
+ }
+ .flesx {
+    display: block;
+ }
+ .hphphp #hp {
+    font-size: 5vh;
+ }
+
+
+ #center {
+    text-align: center;
+    font-size: 4vh;
+ 
+ }
+
+ #black {
+    color: black;
+    font-size: 3vh;
+    font-weight: bold;
+ }
+
+
+.bbbbbb {
+    padding-left: 10vh;
+  }
+.butteen {
+ padding: 5px 10px;
+ width: 70%;
+}
+
+.butteen:hover {
+    color: white;
+    background-color: red;
+}
+
+/* Featured Vehicles Section End */
+
+
+/* Featured Service Start  */
+.imgee{
+  width:100%;
+  height:50vh;
+}
+#hpf {
+    font-size: 10vh;
+    padding-top: 10vh;
+}
+
+#h5hh {
+    font-size: 4vh;
+}
+
+.flexcc {
+    display: block;
+    padding-left: 20px;
+}
+
+.flexzz {
+    display: block;
+    padding-top: 0vh;
+    padding-left: 20px;
+}
+.imgeee{
+  width:100%;
+  height: 80vh;
+}
+
+#hhhhhp {
+    font-size: 10vh;
+}
+#ppppph {
+    font-size: 5vh;
+}
+
+.Ourr {
+    font-size: 8vh;
+}
+
+.Ourfff {
+    display: flex;
+    gap: 10px;
+}
+
+.imgeeimg{
+  width:100%;
+  height:50vh;
+  
+}
+
+footer ul li {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+footer ul li:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+
+ }
